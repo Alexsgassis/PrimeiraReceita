@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(240, 233, 233);
+    font-family: Verdana,sans-serif;
+    max-width: 900px;
+    margin: auto;
+    
+}
+
+h2{
+    color:rgb(9, 4, 80);
+    text-align:center;
+    margin:10px;
+}
+
+h3{
+    margin:35px 10px 10px 10px;
+}
+
+
+.tt{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 40px ;
+    border: none;  
+    width: 900px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.title{
+    color: rgb(9, 4, 80);
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    margin:10px;  
+    text-decoration: none;
+}
+
+
+
+ul li{
+    margin-left:30px;
+    color: rgb(58, 55, 58);
+}
+
+.center{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 40px ;
+    border: none;
+    width: 900px;
+    text-align: justify;
+}
+
+.ingredientes{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px 20px 40px ;
+    border: none;
+    width: 900px;
+    text-align: justify;
+}
+
+
+
+
+
+.photo{
+    margin-bottom: 10px;
+    width: 100%;
+    
+}
+
+
+
+
+
+
+/*INICIAL MENU*/
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+    
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+    
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(90, 6, 90);
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(90, 6, 90);
+
+}
+
